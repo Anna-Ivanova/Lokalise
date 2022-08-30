@@ -34,17 +34,18 @@ body {
     font-family: 'GraphikLCG-Regular', sans-serif;
     font-size: 20px;
     color: #000000;
-    width:100%; 
-    overflow-x:hidden;
+    width: 100%;
+    overflow-x: hidden;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
 .container {
-    max-width: 1320px;
+    max-width: 1350px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -53,7 +54,6 @@ body {
 .header {
     padding: 31px 0px 24px 0px;
     border-bottom: 1px solid #CCCCCC;
-    ;
 }
 
 .flex-row {
@@ -67,11 +67,9 @@ body {
     flex-direction: row-reverse;
 }
 
-
-
 .header-nav-list {
-    
     flex-wrap: wrap;
+    gap: 42px;
 }
 
 .header-nav-item a {
@@ -109,14 +107,9 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .btn-orange {
     background-color: #FF6336;
     color: #ffffff;
-
-
 }
 
 .btn-main {
@@ -143,31 +136,24 @@ body {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 51px;
-
 }
 
 .text-block {
-
     font-size: 25px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .small {
-
     font-size: 15px;
     line-height: 25px;
-
-
 }
 
 .accelerate-text {
     max-width: 471px;
     margin-bottom: 50px;
-
 }
 
 .accelerate-buttons {
@@ -175,7 +161,6 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 25px;
-
 }
 
 .accelerate-text-block {
@@ -184,13 +169,11 @@ body {
 
 .accelerate-image-block {
     flex: 0 1 55%;
-
 }
 
 .img-position {
     width: 100%;
     object-fit: cover;
-
 }
 
 /*--brands section--*/
@@ -199,7 +182,8 @@ body {
     background: #FF9C7D;
     padding: 98px 0 94px 0;
 }
-.brands-section::after{
+
+.brands-section::after {
     position: absolute;
     top: 0;
     left: 50%;
@@ -210,6 +194,7 @@ body {
     bottom: 0;
     background: #ff9c7d;
 }
+
 .brand-img-block {
     display: flex;
     gap: 103px;
@@ -222,7 +207,6 @@ body {
     max-width: 720px;
     margin: 0 auto 70px;
     text-align: center;
-
 }
 
 .block-about {
@@ -236,12 +220,11 @@ body {
     line-height: 60px;
     letter-spacing: 0em;
     margin-bottom: 30px;
-
 }
 
 .block-item-about {
     flex: 0 1 50%;
-    padding: 0 12% 0 0;
+    padding: 0 10% 0 0;
 }
 
 .block-item-about-text {
@@ -249,7 +232,6 @@ body {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 30px;
-
 }
 
 .text-link {
@@ -275,7 +257,6 @@ body {
 
 .reverse-text-block {
     padding: 0 0 0 10.5%;
-
 }
 
 /*--what-you-lokalise*/
@@ -354,7 +335,6 @@ body {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 34px;
-
 }
 
 .boost-section-card-text {
@@ -364,7 +344,6 @@ body {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 25px;
-
 }
 
 .boost-section-card-img {
@@ -378,7 +357,6 @@ body {
 .revolut {
     background-color: #C9E8F2;
     padding: 53px 0 105px 0;
-
 }
 
 .revolut-block-about {
@@ -388,7 +366,8 @@ body {
 .revolut-block-img {
     flex: 0 0 auto;
 }
-.revolut-block-img img{
+
+.revolut-block-img img {
     width: 100%;
     object-fit: cover;
 }
@@ -451,7 +430,6 @@ body {
 
 .captera-block-about-img img {
     padding-top: 20px;
-
 }
 
 .captera-block-logos {
@@ -470,7 +448,6 @@ body {
     line-height: 25px;
     letter-spacing: 0.75px;
     text-align: left;
-
 }
 
 .captera-block-logo-love-list-item-logo {
@@ -494,7 +471,6 @@ body {
 .integrate-block-about2 {
     max-width: 539px;
     margin: 0 auto;
-
 }
 
 .integrate-block-title {
@@ -504,17 +480,14 @@ body {
     line-height: 75px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .integrate-block-title2 {
-
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 .integrate-block-text {
@@ -538,11 +511,8 @@ body {
 /*---section pre-foot--*/
 .pre-foot {
     background: #ff9c7d;
-
     padding: 161px 210px;
 }
-
-
 
 .pre-foot-text {
     font-size: 20px;
@@ -563,7 +533,6 @@ body {
 .pre-foot-button {
     max-width: 160px;
     margin: 0 auto;
-
 }
 
 /*----footer---*/
@@ -601,14 +570,15 @@ body {
     max-width: 300px;
     margin-bottom: 31px;
 }
-.footer-block-about-img img{
+
+.footer-block-about-img img {
     width: 100%;
     object-fit: cover;
 }
+
 .footer-block-about-logo {
     margin-bottom: 11px;
     max-height: 80px;
-
 }
 
 .footer-block-about-text {
@@ -620,7 +590,6 @@ body {
 
 .footer-block2 {
     flex: 1 1 auto;
-
 }
 
 .footer-block2-nav {
@@ -628,7 +597,6 @@ body {
     vertical-align: top;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .footer-block2-nav-col {
@@ -682,47 +650,52 @@ body {
 }
 
 @media (max-width:992px) {
-    .container {
-        max-width: 750px;
-    }
-    
-}
-@media  screen and (min-width:769px) {
-    .header-nav {
-        margin-left: 51px;
-        margin-right: auto;
-    }
     .header-nav-list {
-        gap: 42px;
+        gap: 22px;
     }
-    
+
+    .accelerate-title {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
-
     .container {
-       
         padding: 0 25px;
     }
-    .flex-row{
+
+    .flex-row {
         flex-direction: column;
-               
     }
-    .header-nav{
+
+    .header-nav {
         display: flex;
         margin: none;
-        
     }
-    .header-nav-list{
+
+    .header-nav-list {
         gap: 20px;
         flex-wrap: wrap;
         margin: 15px;
     }
-    .accelerate-block, .brands-section,.block-about,.what-you-lokalise,
-    .boost-section, .revolut, .captera,.integrate, .pre-foot{
+
+    .accelerate-block,
+    .brands-section,
+    .block-about,
+    .what-you-lokalise,
+    .boost-section,
+    .revolut,
+    .captera,
+    .integrate,
+    .pre-foot {
         padding: 50px 0;
     }
-    .accelerate-title, .title-block, .integrate-block-title,
+
+    .accelerate-title,
+    .title-block,
+    .integrate-block-title,
     .captera-block-about-title-h3 {
         font-family: 'GraphikLCG-Semibold', sans-serif;
         font-size: 35px;
@@ -730,74 +703,90 @@ body {
         line-height: 40px;
         letter-spacing: 0em;
         text-align: center;
-
     }
-    .accelerate-buttons{
+
+    .accelerate-buttons {
         flex-direction: column;
     }
+
     .brand-img-block {
         flex-direction: column;
         gap: 40px;
         align-items: center;
         flex-wrap: wrap;
         justify-content: center;
-        
     }
-    .flex-row-cards-item{
-            flex: 0 0 50%;
-            margin-bottom: 35px;
+
+    .flex-row-cards-item {
+        flex: 0 0 50%;
+        margin-bottom: 35px;
     }
+
     .revolut-block-about {
         flex: 0 1 50%;
     }
-    .revolut-block-about-text{
+
+    .revolut-block-about-text {
         font-size: 20px;
         line-height: 25px;
     }
-    .captera-block{
+
+    .captera-block {
         flex-direction: column;
     }
+
     .captera-block-logos {
         flex: 0 0 50%;
         align-items: flex-start;
         border-top: 1px solid #000000;
-        border-left:none;
+        border-left: none;
     }
-    .captera-block-about{
+
+    .captera-block-about {
         flex: 0 0 50%;
     }
-    .captera-block-about-title{
+
+    .captera-block-about-title {
         flex: 0 0 50%;
         margin-left: 0;
-    }  
-    .integrate-block-about2 {
-        margin-top: 15px;  
     }
-    .footer{
+
+    .integrate-block-about2 {
+        margin-top: 15px;
+    }
+
+    .footer {
         padding-top: 50px;
     }
+
     .footer-block {
         flex-direction: column;
     }
-    .footer-block-about{
+
+    .footer-block-about {
         padding-right: 0;
         flex-basis: content;
     }
-    .footer-block-about-img{
+
+    .footer-block-about-img {
         max-width: 100%;
     }
+
     .footer-nav-menu li {
         font-size: 13px;
         line-height: 15px;
     }
+
     .footer-block2-nav-col {
         flex: 0 1 45%;
     }
+
     .footer-bottom-logo {
         align-items: flex-start;
         flex-direction: column;
         margin-bottom: 10px;
     }
+
     .footer-bottom {
         flex-direction: column;
         justify-content: flex-start;
@@ -806,11 +795,12 @@ body {
     }
 
 }
+
 /*---------------*/
-@media  screen and (max-width:425px) {
-    .flex-row-cards{
+@media screen and (max-width:425px) {
+    .flex-row-cards {
         flex-direction: column;
         justify-content: center;
     }
-    
+
 }
